@@ -1,0 +1,81 @@
+/*
+Theme Name: yyx
+Theme URI: http://yanyuxing.cn 
+Author: yanyuxing
+Author URI: http://yanyuxing.cn 
+Description: The .......
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, gray, white, one-column, two-columns, right-sidebar, flexible-width, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: yyx
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+* {
+	margin:0;
+	padding:0;
+}
+html {
+	width:100%;
+	overflow-x:hidden;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, img, ol, ul, p {/*background:transparent;*/
+	border:0;
+	margin:0;
+	padding:0
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+a {
+	text-decoration:none
+}
+body {
+	font:14px/1.5 "Microsoft Yahei", Tahoma, Helvetica, Arial, SimSun, sans-serif;
+	font-size:14px;
+	margin:0 auto;
+	width:100%
+}
+nav+section {
+	clear:both;
+	margin:0 auto;
+	overflow:hidden;
+	width:100%
+}
+/*------------------------------
+=COMMENT FORM
+------------------------------*/
+form {
+	margin-top: 21px;
+	padding-top: 22px;
+	border-top: 1px solid #d7d7d7;
+}
+form p {
+	display: table;
+	margin-bottom: 22px;
+	padding: 0 22px;
+}
+form label {
+	display: table-cell;
+	width: 140px;
+	padding-right: 20px;
+	text-align: right;
+	font-weight: bold;
+	vertical-align: top;
+}
+form input[type="text"], form input[type="email"], form input[type="url"] {
+	display: table-cell;
+	width: 300px;
+	height: 20px;
+	border: 1px solid #d7d7d7;
+}
+form textarea {
+	width: 300px;
+	height: 100px;
+	border: 1px solid #d7d7d7;
+}
+form input[type="submit"] {
+	margin-left: 162px;
+}

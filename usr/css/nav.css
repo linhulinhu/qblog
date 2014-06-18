@@ -1,0 +1,34 @@
+#nav_menu {
+	position:relative;
+	margin:10px 0;
+	font:13px tahoma, sans-serif;
+	overflow:hidden;
+	padding-top:8px;
+	width:100%
+}
+#nav_menu li {
+	list-style-type:none;
+	float:left;
+	list-style-image:none;
+	border-bottom: 1px solid #D65A4A;
+	padding-left:20px
+}
+#nav_menu li.backLava {
+	position:absolute;
+	background-color:#D65A4A;
+	width:9px;
+	border-bottom: none;
+}
+#nav_menu li a {
+	z-index:10;
+	position:relative;
+	text-align:center;
+	padding-bottom:2px;
+	margin:auto 5px;
+	padding-left:5px;
+	padding-right:5px;
+	display:block;
+	color:#000;
+	text-decoration:none;
+	padding-top:2px;
+}
